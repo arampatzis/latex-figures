@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="fig.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="prisoners.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.0858931"
+     inkscape:cx="603.9254"
+     inkscape:cy="490.1794"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="1792"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1"
+     showgrid="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid7"
+       units="mm"
+       originx="396.85039"
+       originy="561.25984"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect19"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker16"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path16" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect13"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker12"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path12" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect12"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker10"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path6" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect20"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect17"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect14"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect42"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect41"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="168.82735"
+       y="212.01574"
+       width="421.41401"
+       height="239.49926"
+       id="rect40" />
+    <rect
+       x="197.61961"
+       y="219.86818"
+       width="202.85457"
+       height="117.78652"
+       id="rect38" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect37"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect35"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect34"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11"
+       is_visible="true"
+       lpeversion="1" />
+    <linearGradient
+       id="swatch7"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect37-8"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect42-8"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect37-8-3"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Triangle-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4-4"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4-4-0"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text38"
+     style="white-space:pre;shape-inside:url(#rect38);display:inline;opacity:1;fill:#000000;fill-opacity:0.148936;stroke:#000000;stroke-width:3.77953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+  <text
+     xml:space="preserve"
+     style="font-size:3.175px;opacity:1;fill:#000000;fill-opacity:0.148936;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     x="68.561569"
+     y="72.024277"
+     id="text39"><tspan
+       sodipodi:role="line"
+       id="tspan39"
+       style="stroke-width:1" /></text>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text40"
+     style="white-space:pre;shape-inside:url(#rect40);display:inline;opacity:1;fill:#000000;fill-opacity:0.148936;stroke:#000000;stroke-width:3.77953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1"
+     width="15"
+     height="15"
+     x="11.850403"
+     y="126.25982" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-0"
+     width="15"
+     height="15"
+     x="36.850403"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-3"
+     width="15"
+     height="15"
+     x="61.850403"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-0-7"
+     width="15"
+     height="15"
+     x="86.850403"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-03"
+     width="15"
+     height="15"
+     x="111.8504"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-0-9"
+     width="15"
+     height="15"
+     x="136.85042"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-3-9"
+     width="15"
+     height="15"
+     x="161.85042"
+     y="126.25983" />
+  <rect
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers"
+     id="rect1-0-7-9"
+     width="15"
+     height="15"
+     x="186.85042"
+     y="126.25983" />
+  <g
+     id="g2"
+     transform="translate(0.52916667)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="17.450766"
+       y="122.9683"
+       id="text41-9-78-1"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="17.450766"
+         y="122.9683">$1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="42.450756"
+       y="122.98553"
+       id="text41-9-78-1-7"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="42.450756"
+         y="122.98553">$2$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="67.450752"
+       y="123.00275"
+       id="text41-9-78-1-7-1"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="67.450752"
+         y="123.00275">$3$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="92.450745"
+       y="123.02"
+       id="text41-9-78-1-7-1-5"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="92.450745"
+         y="123.02">$4$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="117.45074"
+       y="123.03722"
+       id="text41-9-78-1-7-1-5-1"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="117.45074"
+         y="123.03722">$5$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="142.45073"
+       y="123.05447"
+       id="text41-9-78-1-7-1-5-1-1"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="142.45073"
+         y="123.05447">$6$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="167.2093"
+       y="123.39867"
+       id="text41-9-78-1-7-1-5-1-1-2"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="167.2093"
+         y="123.39867">$7$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="192.2093"
+       y="123.41592"
+       id="text41-9-78-1-7-1-5-1-1-2-8"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="192.2093"
+         y="123.41592">$8$</tspan></text>
+  </g>
+  <g
+     id="g1"
+     transform="translate(0.52916667,-0.52916667)"
+     inkscape:export-filename="./prisoners.pdf"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="17.683371"
+       y="135.41225"
+       id="text41-9-78-1-4"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-85"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="17.683371"
+         y="135.41225">$2$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="42.683357"
+       y="135.42949"
+       id="text41-9-78-1-7-8"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="42.683357"
+         y="135.42949">$3$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="67.68335"
+       y="135.44672"
+       id="text41-9-78-1-7-1-0"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="67.68335"
+         y="135.44672">$1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="92.683342"
+       y="135.46396"
+       id="text41-9-78-1-7-1-5-2"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="92.683342"
+         y="135.46396">$4$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="117.68333"
+       y="135.48119"
+       id="text41-9-78-1-7-1-5-1-5"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="117.68333"
+         y="135.48119">$7$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="142.68332"
+       y="135.49843"
+       id="text41-9-78-1-7-1-5-1-1-27"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="142.68332"
+         y="135.49843">$5$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="167.44189"
+       y="135.84264"
+       id="text41-9-78-1-7-1-5-1-1-2-5"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./text41-9-78-1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="167.44189"
+         y="135.84264">$8$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="192.44189"
+       y="135.85986"
+       id="text41-9-78-1-7-1-5-1-1-2-8-1"
+       transform="rotate(-0.03949536)"
+       inkscape:export-filename="./prisoners.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan41-1-8-1-8-5-9-7-8-2-4-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0px;font-family:'New York Small';-inkscape-font-specification:'New York Small, Normal';font-variant-ligatures:no-common-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="192.44189"
+         y="135.85986">$6$</tspan></text>
+  </g>
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#Triangle)"
+     d="m 19.350403,142.1415 c 4.166666,3.03944 8.333334,6.07888 12.500042,6.09544 4.166707,0.0166 8.333291,-2.98964 12.499957,-5.9959"
+     id="path4"
+     inkscape:path-effect="#path-effect4"
+     inkscape:original-d="m 19.350403,142.1415 c 4.166666,3.03944 8.333334,6.07888 12.500001,9.11832 4.166748,-3.00632 8.333332,-6.01252 12.499998,-9.01878" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;marker-end:url(#Triangle-4);paint-order:stroke fill markers"
+     d="m 19.350403,142.1415 c 4.166666,3.03944 8.333334,6.07888 12.500042,6.09544 4.166707,0.0166 8.333291,-2.98964 12.499957,-5.9959"
+     id="path4-5"
+     inkscape:path-effect="#path-effect4-4"
+     inkscape:original-d="m 19.350403,142.1415 c 4.166666,3.03944 8.333334,6.07888 12.500001,9.11832 4.166748,-3.00632 8.333332,-6.01252 12.499998,-9.01878"
+     transform="translate(25.073666,1.5830278)" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker6)"
+     d="m 69.850404,124.25982 c -8.5,-2.68826 -17.000001,-5.37653 -25.333417,-5.20983 -8.333416,0.1667 -16.499916,3.18823 -24.666584,6.20983"
+     id="path5"
+     inkscape:path-effect="#path-effect5"
+     inkscape:original-d="m 69.850404,124.25982 c -8.500001,-2.68826 -17,-5.37653 -25.500002,-8.06479 -8.16683,3.02166 -16.333332,6.04319 -24.499999,9.06479" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker10)"
+     d="m 93.850403,142.25982 c -0.666664,1.33333 -1.333334,2.66667 -1.666666,4.16668 -0.333332,1.50002 -0.333332,3.16665 0.500018,3.99998 0.83335,0.83334 2.499982,0.83334 3.333316,-1e-5 0.833334,-0.83335 0.833334,-2.49998 0.499994,-4 -0.33334,-1.50001 -0.999996,-2.83332 -1.666661,-4.16665"
+     id="path9"
+     inkscape:path-effect="#path-effect9"
+     inkscape:original-d="m 93.850403,142.25982 c -0.666665,1.33333 -1.333333,2.66667 -1.999998,4 0,1.6667 0,3.33333 0,5 1.6667,0 3.333332,0 5,0 0,-1.6667 0,-3.33333 0,-5 -0.666681,-1.33336 -1.333336,-2.66667 -2.000001,-4"
+     inkscape:export-filename="./prisoners.pdf"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker12)"
+     d="m 119.3504,143.11523 c 8.33334,2.72253 16.66668,5.44507 25.0001,5.48839 8.33342,0.0433 16.66658,-2.59245 24.99992,-5.22828"
+     id="path11"
+     inkscape:path-effect="#path-effect12"
+     inkscape:original-d="m 119.3504,143.11523 c 8.33334,2.72253 16.66668,5.44507 25.00002,8.1676 8.3335,-2.63588 16.66666,-5.27166 25,-7.90749" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker16)"
+     d="m 169.35042,145.45626 c 4.16666,1.93452 8.33332,3.86904 12.58336,3.66961 4.25005,-0.19943 8.58329,-2.53272 12.91662,-4.86605"
+     id="path13"
+     inkscape:path-effect="#path-effect13"
+     inkscape:original-d="m 169.35042,145.45626 c 4.16666,1.93452 8.33332,3.86904 12.49998,5.80356 4.33343,-2.33338 8.66667,-4.66667 13,-7" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker10)"
+     d="m 195.63205,124.80314 c -8.76054,-2.7919 -17.52109,-5.5838 -25.98478,-5.50766 -8.46369,0.0761 -16.63019,3.02021 -24.79687,5.96434"
+     id="path17"
+     inkscape:path-effect="#path-effect18"
+     inkscape:original-d="m 195.63205,124.80314 c -8.76054,-2.7919 -17.52109,-5.5838 -26.28163,-8.3757 -8.16684,2.94418 -16.33334,5.88825 -24.50002,8.83238" />
+  <path
+     style="fill:none;fill-opacity:0.972826;stroke:#000000;stroke-width:0.25;paint-order:stroke fill markers;marker-end:url(#marker12)"
+     d="m 142.85041,124.25982 c -3.66667,-1.66667 -7.33334,-3.33333 -10.83337,-3.33332 -3.50003,2e-5 -6.8333,1.66665 -10.16663,3.33332"
+     id="path19"
+     inkscape:path-effect="#path-effect19"
+     inkscape:original-d="m 142.85041,124.25982 c -3.66667,-1.66667 -7.33334,-3.33333 -11.00001,-5 -3.33339,1.6667 -6.66666,3.33333 -9.99999,5"
+     inkscape:export-filename="./prisoners.pdf"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+</svg>

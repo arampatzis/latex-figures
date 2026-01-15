@@ -1,0 +1,175 @@
+\documentclass[10pt]{article}
+
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={160mm,250mm},
+ left=15mm,
+ right=15mm,
+ top=20mm,
+}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{bm}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+
+
+\newcommand{\incfig}[3][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{#2}{#3.pdf_tex}
+}
+
+
+\title{Importing Images from Inkscape to \LaTeX}
+\author{Georgios Arampatzis\\Mathematics and Applied Mathematics Department\\University of Crete}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Workflow: Inkscape to LaTeX}
+
+\subsection{Creating and Saving Graphics}
+To create graphics for use with the \texttt{import} package, follow these steps in
+Inkscape:
+
+\begin{enumerate}
+    \item \textbf{Design:} Create your vector graphic. Use the text tool for any
+    labels you want \LaTeX{} to typeset.
+    \item \textbf{Save SVG:} Navigate to \textbf{File \textgreater{} Save As...} and
+    select \textbf{Inkscape SVG (*.svg)}.
+    \item \textbf{Export PDF + LaTeX:}
+    \begin{itemize}
+        \item Go to \textbf{File \textgreater{} Export...} (or \texttt{Ctrl+Shift+E}).
+        \item Select \textbf{Portable Document Format (*.pdf)} from the format
+        dropdown.
+        \item In the export settings, check the box: \textbf{Omit text in PDF and
+        create LaTeX file}.
+        \item Click \textbf{Export}.
+    \end{itemize}
+\end{enumerate}
+
+
+
+Inkscape generates two files: \texttt{filename.pdf} (graphics) and
+\texttt{filename.pdf\_tex} (text positioning).
+
+\subsection{Importing into LaTeX}
+
+You need \texttt{\textbackslash usepackage\{import, graphicx, xcolor\}}.
+Include the graphic as follows:
+
+\begin{verbatim}
+\begin{figure}[ht]
+    \centering
+    \incfig[0.8]{./figures/}{filename}
+    \caption{Description of the vector graphic.}
+    \label{fig:my_graphic}
+\end{figure}
+\end{verbatim}
+
+
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.75]{figures/histogram/}{histogram}
+    \caption{
+        Histogram using relative frequencies.
+        }
+    \label{fig:age:histogram}
+\end{figure}
+
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.75]{figures/mode/}{interp}
+    \caption{
+        Mode interpolation at the points $(m_{j-1}, f_{j-1}), (m_{j}, f_{j}), (m_{j+1}, f_{j+1})$ we interpolate a second-degree polynomial, $p$.
+        We assume that $p$ reaches its maximum at $m \in [a_{j-1}, a_j]$.
+        }
+    \label{fig:mode_interpolation}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.75]{figures/mode/}{fig}
+    \caption{
+        The first derivative of a second-degree polynomial is a linear function.
+        The derivative vanishes at $m$ and the unknown is the distance $h$ from the end $a_j$ of the class $C_j$.
+    }
+    \label{fig:mode_first_derivative}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.75]{figures/box-plot/}{boxplot}
+    \caption{
+        Box plot.
+    }
+    \label{fig:boxplot}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.9]{figures/asymmetry/}{asymmetry}
+    \caption{
+        Distributions with positive asymmetry, symmetry, and negative asymmetry.
+    }
+    \label{fig:assymetry}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[1]{figures/prisoners/}{prisoners}
+    \caption{
+        The prisoners' problem for 8 prisoners. An arrangement of the numbers 1 to 8 in which the prisoners win. 
+        Prisoner number 1 opens box 1, then box 2, then box 3, and stops because he finds his number. 
+        Prisoner number 8 opens box 8, then box 6, then box 5, then box 5 again, and stops because he finds his number. 
+        All cycles have a length less than or equal to 4.
+        }
+    \label{fig:prisoners}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.7]{figures/regression/}{regression}
+    \caption{
+        A set of points $\{(x_i, y_i)\}_{i=1}^n$ and $\hat{y}_i$ the prediction of the model at the point $x_i$.
+        }
+    \label{fig:regression}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.7]{figures/nullspace/}{nullspace}
+    \caption{
+        The data vector $\bm{y}$ is the sum of two vectors:
+        the prediction vector $\hat{\bm{y}}$, which is a linear
+        combination of the columns of the matrix $A$,
+        and the error vector $\bm{\varepsilon}$, which is orthogonal to $\hat{\bm{y}}$.
+        The vector $\hat{\bm{y}}$ is the projection of $\bm{y}$ onto the column space via
+        the projection matrix $P$, and the vector $\bm{\varepsilon}$ is the projection
+        of $\bm{y}$ onto the nullspace of the column space via the projection matrix $I-P$.
+        }
+    \label{fig:n=ullspace}
+\end{figure}
+
+
+
+
+\end{document}

@@ -1,0 +1,225 @@
+\documentclass[tikz,border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{color}
+
+\usepackage{calculator}
+
+\usepackage[customcolors]{hf-tikz}
+
+\newcommand{\highlight}[2]{\colorbox{#1}{$\displaystyle#2$}}
+
+\newcommand{\CIRCLE}[4]{
+    \node [style={circle,thick,draw,minimum size=1cm}] (#3) at (#1,#2) {#4} ;
+}
+\newcommand{\CIRCLEc}[5]{
+    \node [style={circle,fill=#5,thick,draw,minimum size=1cm}] (#3) at (#1,#2) {#4} ;
+}
+\newcommand{\RECTAN}[4]{
+    \node [style={rectangle,thick,draw,minimum size=1cm}] (#3) at (#1,#2) {#4} ;
+}
+\newcommand{\RECTANc}[5]{
+    \node [style={rectangle,fill=#5,thick,draw,minimum size=1cm}] (#3) at (#1,#2) {#4} ;
+}
+\newcommand{\DOTS}[3]{
+	\node (#3) at (#1,#2) {\Large$\ldots$};
+}
+
+
+
+\definecolor{mygray}{gray}{0.2}
+\definecolor{nodeColorB}{RGB}{0, 0, 0}
+\definecolor{nodeColor0}{RGB}{255, 255, 255}
+\definecolor{nodeColor1}{RGB}{255, 102, 0}
+\definecolor{nodeColor2}{RGB}{153, 204, 0}
+\definecolor{nodeColor3}{RGB}{153, 214, 255}
+\definecolor{nodeColor4}{RGB}{255, 255, 153}
+
+
+%% Set the basic coordinates %%
+\COPY{5}{\Xp}
+
+\COPY{9}{\Ypp}
+\COPY{6}{\Yp}
+\COPY{3}{\Yt}
+\COPY{0}{\Yd}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\SUBTRACT{\Xp}{5}{\Xa}
+\ADD{\Xp}{5}{\Xb}
+
+\ADD{\Xa}{2}{\XaKSI}
+\SUBTRACT{\Xb}{2}{\XbKSI}
+
+
+\begin{document}
+
+\begin{tikzpicture}
+
+
+    \begin{scope}[fill=nodeColor0]
+    \CIRCLE{\Xa}{\Yt} {THI1} {$\bm{\vartheta}_{1,1}$}
+    \RECTAN{\Xa}{\Yd} {DI1}  {${\bm y}_{1,1}$}
+    
+    \SUBTRACT{\Xa}{2}{\tmpXl};  \ADD{\Yt}{1}{\tmpYl}
+    \ADD{\Xa}{2}{\tmpXr};  \SUBTRACT{\Yd}{1.5}{\tmpYr}
+    \draw[thick, dashed, rounded corners=10pt] (\tmpXl,\tmpYl) rectangle (\tmpXr,\tmpYr);
+\end{scope}
+
+
+\begin{scope}[every node/.style={ fill=nodeColor0 }]
+
+    \CIRCLE{\Xb}{\Yt} {THI2} {$\bm{\vartheta}_{2,i}$}
+    \RECTAN{\Xb}{\Yd} {DI2}  {${\bm y}_{2,i}$}
+       
+    \SUBTRACT{\Yd}{1.1}{\tmp}   
+	\node (TEXT2) at (\Xb,\tmp) {$i=1,\ldots,6$};
+    
+    \SUBTRACT{\Xb}{2}{\tmpXl};  \ADD{\Yt}{1}{\tmpYl}
+    \ADD{\Xb}{2}{\tmpXr};  \SUBTRACT{\Yd}{1.5}{\tmpYr}
+    \draw[thick, dashed, rounded corners=10pt] (\tmpXl,\tmpYl) rectangle (\tmpXr,\tmpYr);
+\end{scope}
+
+
+\begin{scope}[every node/.style={ fill=nodeColor0 }]
+    \SUBTRACT{\Xp}{2}{\tmp}
+    \CIRCLE{\tmp}{\Yt} {TH1} {$\bm\vartheta_1$}
+    \ADD{\Xp}{2}{\tmp}
+    \CIRCLE{\tmp}{\Yt} {TH2} {$\bm\vartheta_2$}
+    \SUBTRACT{\Yt}{0.0}{\tmp}
+    \CIRCLE{\Xp}{\tmp} {TH} {$\bm\vartheta$}
+\end{scope}
+
+
+\begin{scope}[every node/.style={ fill=nodeColor1 }]
+    \CIRCLE{\Xp}{\Yp}{PSI}{$\bm\psi$}
+    \CIRCLE{\Xa}{\Yp} {PSI1} {$\bm\psi_1$}
+    \CIRCLE{\Xb}{\Yp} {PSI2} {$\bm\psi_2$}
+    \CIRCLE{\Xa}{\Ypp} {TH1S} {$\bm\vartheta_1^\star$}
+    \CIRCLE{\Xb}{\Ypp} {TH2S} {$\bm\vartheta_2^\star$}
+\end{scope}
+
+
+\begin{scope}[every node/.style={ fill=nodeColor2 }]
+    \CIRCLE{\XaKSI}{\Yp} {KSI1} {$\bm\xi_1$}
+\end{scope}
+
+\begin{scope}[every node/.style={ fill=nodeColor3 }]
+    \CIRCLE{\XbKSI}{\Yp} {KSI2} {$\bm\xi_2$}
+\end{scope}
+
+
+\begin{scope}[every node/.style={ fill=nodeColor4 }]
+    
+\end{scope}
+
+
+\begin{scope}[>={latex}, every edge/.style={draw=black, thick}]
+    \path [->] (THI1) edge (DI1);
+    \path [->] (THI2) edge (DI2);
+    \path [->] (PSI1) edge (THI1);
+    \path [->] (PSI2) edge (THI2);
+\end{scope}
+
+\begin{scope}[>={latex}, every edge/.style={draw=nodeColor1, thick}]
+    \path [->] (PSI)  edge (TH);
+    \path [->] (PSI)  edge (TH1);
+    \path [->] (PSI)  edge (TH2);
+    \path [->] (PSI1) edge (TH1S);
+    \path [->] (PSI2) edge (TH2S);
+    \path [->] (TH1S) edge (PSI);
+    \path [->] (TH2S) edge (PSI);
+    \path [->] (PSI)  edge (TH);
+\end{scope}
+
+\begin{scope}[>={latex}, every edge/.style={draw=nodeColor2, thick}]
+    \path [->] (KSI1) edge (THI1);
+    \path [->] (KSI1) edge (TH1);    
+    \path [->] (KSI1) edge (TH);
+\end{scope}
+
+
+\begin{scope}[>={latex}, every edge/.style={draw=nodeColor3, thick}]
+    \path [->] (KSI2) edge (THI2);
+    \path [->] (KSI2) edge (TH2);
+    \path [->] (KSI2) edge (TH);
+\end{scope}
+
+
+\begin{scope}
+
+    \SUBTRACT{\Yd}{2.0}{\tmpY}
+    \node (TEXT1) at (\Xa,\tmpY) {stretching};
+    \node (TEXT2) at (\Xb,\tmpY) {shear};
+    
+    \SUBTRACT{\Yd}{2.7}{\tmpY}
+    
+    \node (MATH1) at (\Xa,\tmpY) { 
+    $
+    \bm\vartheta_{1} = ( \hspace{4pt}
+    \hfsetfillcolor{nodeColor1}\hfsetbordercolor{nodeColor1}
+    \tikzmarkin{a}
+        A_{1}^*,B^*_{1},
+    \tikzmarkend{a}
+    \hspace{8pt}
+    \hfsetfillcolor{nodeColor2}\hfsetbordercolor{nodeColor2}
+    \tikzmarkin{b}
+    \sigma_{\mathrm{str}}
+        \tikzmarkend{b}
+    \hspace{4pt} )
+    $
+    };
+    
+    
+    \node (MATH2) at (\Xb,\tmpY){ 
+    $
+    \bm\vartheta_{2} = ( \hspace{4pt}
+    \hfsetfillcolor{nodeColor1}\hfsetbordercolor{nodeColor1}
+    \tikzmarkin{a2}
+        A_2^*,B_2^*,
+    \tikzmarkend{a2}
+    \hspace{8pt}
+    \hfsetfillcolor{nodeColor3}\hfsetbordercolor{nodeColor3}
+    \tikzmarkin{b2}
+        C^*,D^*,\sigma_{\mathrm{shr}}
+    \tikzmarkend{b2}
+    \hspace{4pt} )
+    $
+    };
+    
+\ADD{\tmpY}{-0.5}{\tmpY}
+\node (MATH3) at (\Xp,\tmpY){ 
+    $
+    \bm\vartheta = ( \hspace{4pt}
+    \hfsetfillcolor{nodeColor1}\hfsetbordercolor{nodeColor1}
+    \tikzmarkin{a3}
+        A^*,B^*,
+    \tikzmarkend{a3}
+    \hspace{8pt}
+    \hfsetfillcolor{nodeColor3}\hfsetbordercolor{nodeColor3}
+    \tikzmarkin{b3}
+        C^*,D^*,\sigma_{\mathrm{shr}}
+    \tikzmarkend{b3}
+    \hspace{8pt} 
+    \hfsetfillcolor{nodeColor2}\hfsetbordercolor{nodeColor2}
+    \tikzmarkin{c3}
+        \sigma_{\mathrm{str}}
+    \tikzmarkend{c3}
+    \hspace{4pt} )
+    $
+};
+
+\end{scope}
+
+
+\end{tikzpicture}
+
+
+
+\end{document}

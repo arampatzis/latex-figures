@@ -1,0 +1,73 @@
+%% Creator: Inkscape 1.4.3 (0d15f750, 2025-12-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'interp.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{554.43555937bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.48888129)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{interp.pdf}}%
+    \put(-0.0011189,0.44325849){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p(x)$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{interp.pdf}}%
+    \put(0.25515075,0.01036557){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$m_{j-1}$\end{tabular}}}}}%
+    \put(0.15563982,0.00226482){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$a_{j-1}$\end{tabular}}}}}%
+    \put(0.35874783,0.00226479){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$a_{j}$\end{tabular}}}}}%
+    \put(0.56692236,0.00227017){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$a_{j+1}$\end{tabular}}}}}%
+    \put(0.77142907,0.00226592){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$a_{j+2}$\end{tabular}}}}}%
+    \put(0.46504882,0.01049193){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$m_{j}$\end{tabular}}}}}%
+    \put(0.40361517,0.04106054){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$m$\end{tabular}}}}}%
+    \put(0.53866282,0.47280307){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}slope: $p'(a_j)=\frac{f_j - f_j-1}{a_j - a_{j-1}}$\end{tabular}}}}}%
+    \put(0.20067508,0.33489073){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_{j-1}$\end{tabular}}}}}%
+    \put(0.48113244,0.41198544){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_{j}$\end{tabular}}}}}%
+    \put(0.66532448,0.01049194){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$m_{j+1}$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{interp.pdf}}%
+    \put(0.68103245,0.24133758){\color[rgb]{0,0,0}\rotatebox{0.03949536}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_{j+1}$\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

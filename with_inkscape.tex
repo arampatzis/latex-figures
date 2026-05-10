@@ -9,12 +9,10 @@
  top=20mm,
 }
 
-\usepackage[utf8x]{inputenc}
-\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{bm}
 \usepackage{import}
-\usepackage{xifthen}
-\usepackage{pdfpages}
 
 
 \newcommand{\incfig}[3][1]{%
@@ -63,7 +61,7 @@ Inkscape generates two files: \texttt{filename.pdf} (graphics) and
 
 \subsection{Importing into LaTeX}
 
-You need \texttt{\textbackslash usepackage\{import, graphicx, xcolor\}}.
+You need \texttt{\textbackslash usepackage\{import\}}, \texttt{\textbackslash usepackage\{graphicx\}}, and \texttt{\textbackslash usepackage\{xcolor\}}.
 Include the graphic as follows:
 
 \begin{verbatim}
@@ -127,7 +125,7 @@ Include the graphic as follows:
     \caption{
         Distributions with positive asymmetry, symmetry, and negative asymmetry.
     }
-    \label{fig:assymetry}
+    \label{fig:asymmetry}
 \end{figure}
 
 
@@ -137,10 +135,22 @@ Include the graphic as follows:
     \caption{
         The prisoners' problem for 8 prisoners. An arrangement of the numbers 1 to 8 in which the prisoners win. 
         Prisoner number 1 opens box 1, then box 2, then box 3, and stops because he finds his number. 
-        Prisoner number 8 opens box 8, then box 6, then box 5, then box 5 again, and stops because he finds his number. 
+        Prisoner number 8 opens box 8, then box 6, then box 5, and stops because he finds his number.
         All cycles have a length less than or equal to 4.
         }
     \label{fig:prisoners}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \incfig[0.75]{figures/lorenz/}{lorenz}
+    \caption{
+        Lorenz curve. The curve shows the cumulative distribution of income
+        across the population. Point $A$ marks the median income and point $B$
+        marks the mean income.
+    }
+    \label{fig:lorenz}
 \end{figure}
 
 
@@ -166,7 +176,7 @@ Include the graphic as follows:
         the projection matrix $P$, and the vector $\bm{\varepsilon}$ is the projection
         of $\bm{y}$ onto the nullspace of the column space via the projection matrix $I-P$.
         }
-    \label{fig:n=ullspace}
+    \label{fig:nullspace}
 \end{figure}
 
 
